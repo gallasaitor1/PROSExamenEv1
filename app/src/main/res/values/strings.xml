@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExamenEval1</string>
+    <string-array name="provincias_spinner">
+        <item>Araba</item>
+        <item>Bizkaia</item>
+        <item>Gipuzkoa</item>
+    </string-array>
+</resources>

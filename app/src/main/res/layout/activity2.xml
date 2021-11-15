@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/txt2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona Provincia: "
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="93dp" />
+    <Spinner
+        android:id="@+id/spin2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutPlaya"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona Provincia: "
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="93dp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Costa" />
+
+            <RadioButton
+                android:id="@+id/radio2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interior" />
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visualizar Lista"/>
+
+</LinearLayout>
